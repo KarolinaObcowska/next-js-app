@@ -1,5 +1,5 @@
 /** @jsxRuntime classic */
-/** @jsx jsx */import { jsx } from 'theme-ui'
+/** @jsx jsx */ import { jsx } from 'theme-ui'
 import Link from 'next/link'
 
 const Page = () => (
@@ -17,6 +17,6 @@ const Page = () => (
       </h1>
     </div>
   </div>
-);
+)
 
-export default Page;
+export default Page
