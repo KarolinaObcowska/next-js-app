@@ -1,7 +1,7 @@
 import nc from 'next-connect';
 import notes from '../../../src/data/data';
 
-const getNote = id => notes.find(n => n.id === parseInd(id));
+const getNote = id => notes.find(n => n.id === parseInt(id));
 
 const handler = nc()
     .get((req,res) => {

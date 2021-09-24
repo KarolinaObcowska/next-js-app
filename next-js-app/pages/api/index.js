@@ -1,4 +1,4 @@
-import nc from 'next-connect';
+import nc from 'next-connect'
 import cors from 'cors'
 
 const handler = nc()
@@ -14,5 +14,5 @@ const handler = nc()
   .put(async (req, res) => {
     res.end('hello')
   })
-  
-export default handler;
+
+export default handler
